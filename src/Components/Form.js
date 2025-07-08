@@ -65,16 +65,16 @@ export default function Form(props) {
                     ></textarea>
                 </div>
 
-                <button className="btn btn-primary mx-1" onClick={handleUpperCase}>
+                <button className="btn btn-primary mx-2 my-2" onClick={handleUpperCase}>
                     UPPERCASE
                 </button>
-                <button className="btn btn-info mx-1" onClick={handleLowercase}>
+                <button className="btn btn-info mx-2 my-2" onClick={handleLowercase}>
                     lowercase
                 </button>
-                <button className="btn btn-success mx-1" onClick={handleCamelCase}>
+                <button className="btn btn-success mx-2 my-2" onClick={handleCamelCase}>
                     CamelCase
                 </button>
-                <button className="btn btn-danger mx-1" onClick={handleClear}>
+                <button className="btn btn-danger mx-2 my-2" onClick={handleClear}>
                     Clear
                 </button>
 

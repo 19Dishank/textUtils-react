@@ -1,4 +1,4 @@
-// Alert.js
+
 import React from 'react';
 
 const Alert = (props) => {
@@ -23,13 +23,7 @@ const Alert = (props) => {
 
             >
                 <strong>{cap(props.alert.type)}:</strong> {cap(props.alert.message)}
-                <button
-                    type="button"
-                    className="btn-close"
-                    data-bs-dismiss="alert"
-                    aria-label="Close"
-                    onClick={props.onClose}
-                ></button>
+                
             </div>
         )
     );
